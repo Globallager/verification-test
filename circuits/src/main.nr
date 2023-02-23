@@ -1,3 +1,3 @@
-fn main(x : Field, y : pub Field) {
-    constrain x != y;
+fn main(x : u8, y : pub u8) {
+    constrain x < y;
 }

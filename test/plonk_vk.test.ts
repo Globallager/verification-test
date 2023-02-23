@@ -66,8 +66,12 @@ describe("TurboVerifier", function () {
     });
 
     it("Should verify proof in smart contract", async function () {
+        /*
         abi.x = 2;
         abi.y = 3;
+        */
+        abi.x = 1;
+        abi.y = 2;
 
         const proof = await create_proof(prover, acir, abi);
         const sc_verified = await verifierContract.verify(proof);
