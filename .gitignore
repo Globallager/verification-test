@@ -1,4 +1,5 @@
 # Noir
+circuits/contract
 circuits/proofs
 circuits/src/acir.buf
 circuits/src/main.buf

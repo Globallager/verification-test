@@ -7,6 +7,9 @@ Demo hosted on: https://hello-noir.netlify.app/
 0. `git submodule update --init --recursive`
 1. `npm install`
 2. `npx hardhat test`
+3. Modify Code (circuits/src/main.nr & Prover.toml etc.)
+4. `npx hardhat run scripts/generate_sol_verifier.ts`
+5. `npx hardhat test`
 
 The frontend repo is a submodule under `ui/`.
 
