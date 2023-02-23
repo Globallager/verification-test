@@ -2,13 +2,11 @@
 
 Demo hosted on: https://hello-noir.netlify.app/
 
-## Step-by-Step
+## Run Tests Step-by-Step
 
 0. `git submodule update --init --recursive`
-1. `forge install`
-2. `npm install`
-3. `npm run test:full`
-4. `npm run deploy`
+1. `npm install`
+2. `npx hardhat test`
 
 The frontend repo is a submodule under `ui/`.
 
@@ -20,13 +18,15 @@ The frontend repo is a submodule under `ui/`.
 
 ### Getting Started
 
- * Use Foundry: 
+- Use Foundry:
+
 ```bash
 forge install
 forge test
 ```
 
- * Use Hardhat:
+- Use Hardhat:
+
 ```bash
 npm install
 npx hardhat test
@@ -34,19 +34,22 @@ npx hardhat test
 
 ### Features
 
- * Write / run tests with either Hardhat or Foundry:
+- Write / run tests with either Hardhat or Foundry:
+
 ```bash
 forge test
 # or
 npx hardhat test
 ```
 
- * Use Hardhat's task framework
+- Use Hardhat's task framework
+
 ```bash
 npx hardhat example
 ```
 
- * Install libraries with Foundry which work with Hardhat.
+- Install libraries with Foundry which work with Hardhat.
+
 ```bash
 forge install rari-capital/solmate # Already in this repo, just an example
 ```
